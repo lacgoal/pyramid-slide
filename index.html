@@ -7,5 +7,30 @@
   </head>
   <body>
 
+    <div class="container">
+      <div class="title">
+        <h1>Pyramid Slide</h1>
+      </div>
+
+      <form class="symbolAndSlider">
+        Brick Symbol:
+        <select id="brickSymbol" name="brickSymbol" onchange="pyramidSlideChange()">
+          <option value="#">#</option>
+          <option value="@">@</option>
+          <option value="X">X</option>
+          <option value="$">$</option>
+        </select>
+
+        <span>
+          How High?
+          <input id= "pyramidSlide" type="range" name="pyramidSlide" min="1" max="20" value="8" oninput="pyramidSlideChange()">
+          <span id="sliderDisplay"></span>
+        </span>
+      </form>
+
+      <div id="pyramid"></div>
+    </div>
   </body>
+
+  <script type="text/javascript" src="pyramid-slide.js"></script>
 </html>

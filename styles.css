@@ -1,3 +1,29 @@
+
 body {
-  background: red;
+  background-color: #FFFFFF;
+  font-family: "Verdana", monospace;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  width: 700px;
+  margin: auto;
+}
+.container {
+  background-color: #53868B;
+  color: #FFFFFF;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+  border: 7px solid #8b5853;
+  border-radius: 10px;
+}
+.title {
+  border-bottom: 10px solid #8b5853;
+  padding-top: 2%;
+}
+.symbolAndSlider {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-bottom: 10px solid #8b5853;
+  background-color: #8b5853;
 }
